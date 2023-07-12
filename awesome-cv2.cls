@@ -21,7 +21,7 @@
 %-------------------------------------------------------------------------------
 %                Identification
 %-------------------------------------------------------------------------------
-\ProvidesClass{awesome-cv}[2015/12/14 v1.3 Awesome Curriculum Vitae Class]
+\ProvidesClass{awesome-cv2}[2015/12/14 v1.3 Awesome Curriculum Vitae Class]
 \NeedsTeXFormat{LaTeX2e}
 
 
@@ -552,14 +552,14 @@
 		  {\entrypositionstyle{#1} & \entrydatestyle{#4} \\}
 		  {\entrytitlestyle{#2} & \entrylocationstyle{#3} \\
 		  \entrypositionstyle{#1} & \entrydatestyle{#4} \\}
-		\multicolumn{2}{L{17cm}}{\descriptionstyle{#5}} \\}
+		\multicolumn{2}{L{18.8cm}}{\descriptionstyle{#5}} \\}
 		{\ifempty{#2#3}
 		  {\entrypositionstyle{#1} & \entrydatestyle{#4} \\
 		  \entrypositionstyle{#6} & \entrydatestyle{#7} \\}
 		  {\entrytitlestyle{#2} & \entrylocationstyle{#3} \\
 		  \entrypositionstyle{#1} & \entrydatestyle{#4} \\
 		  \entrypositionstyle{#6} & \entrydatestyle{#7} \\}
-		\multicolumn{2}{L{17cm}}{\descriptionstyle{#5}} \\}
+		\multicolumn{2}{L{18.8cm}}{\descriptionstyle{#5}} \\}
   \end{tabular*}
 }
 
